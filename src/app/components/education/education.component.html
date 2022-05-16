@@ -1,13 +1,15 @@
 <div class="container px-4 py-5" id="hanging-icons">
   <h2 class="pb-2 border-bottom">Education</h2>
-  <div *ngFor="let education of educationalHistory" class="container">
-    <div class="row">
-      <div class="col">
-        <h2>{{education.Year}}</h2>
-        <p>{{education.Institute}}</p>
-        <a class="btn btn-primary" (click)="getEducationalHistory()">
-          {{education.Degree}}
-        </a>
+  <div class="row">
+    <div *ngFor="let education of educationalHistory" class="col-md-4">
+      <div class="row">
+        <div class="col my-10 edu-styles">
+          <h2>{{education.Year}}</h2>
+          <p>{{education.Institute}}</p>
+          <a class="btn btn-primary" (click)="getEducationalHistory()">
+            {{education.Degree}}
+          </a>
+        </div>
       </div>
     </div>
   </div>

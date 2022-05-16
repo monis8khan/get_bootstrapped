@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExperienceComponent implements OnInit {
 
+  experienceHistory = [1,2,3,4];
+
   constructor() { }
 
   ngOnInit(): void {
