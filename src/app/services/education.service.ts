@@ -23,7 +23,7 @@ export class EducationService {
       'id': 3,
       'Institute': 'Education Trust Nasra School (Korangi Campus)',
       'Year': '2013-2015',
-      'Degree': 'Pre-Engineering',
+      'Degree': 'Computer Science',
     }
   ];
 

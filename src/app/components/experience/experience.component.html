@@ -1,19 +1,15 @@
-<div *ngFor="experience of experienceHistory" class="container marketing">
+<div class="container marketing justify-content-between">
   <h2 _ngcontent-csu-c19="" class="pb-2 border-bottom">Experience</h2>
-  <div class="row featurette exp_container">
-    <div class="col-md-7">
-      <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span>
+  <div *ngFor="let experience of experienceHistory" class="row featurette exp_container">
+    <div class="col-md-9">
+      <h2 class="featurette-heading">{{experience.company}}&ensp;<span class="text-muted h4">{{experience.job[0].designation}}</span>
       </h2>
-      <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.
+      {{experience.type}} | <span class="text-muted">exp</span>
+      <p class="lead">{{experience.description && experience.description}}
       </p>
     </div>
-    <div class="col-md-5">
-      <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="200" height="200"
-        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 200x200"
-        preserveAspectRatio="xMidYMid slice" focusable="false">
-        <title>Placeholder</title>
-        <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">200x200</text>
-      </svg>
+    <div class="col-md-3 justify-content-between">
+      <img src="https://www.gaditek.com/wp-content/uploads/2019/01/gaditek-logo-2.jpg" alt="company logo" width= 200px; class="">
     </div>
   </div>
 
