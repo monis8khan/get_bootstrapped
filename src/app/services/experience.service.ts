@@ -14,7 +14,7 @@ export class ExperienceService {
       job: [
         {
           designation: "Javascript Developer",
-          startDate: new Date('Dec 2021')
+          startDate: new Date(2021, 11)
         }
       ],
       logo: "https://media-exp1.licdn.com/dms/image/C4E0BAQGRzGNsseVH1Q/company-logo_200_200/0/1519903742534?e=2147483647&v=beta&t=mKUMulqxtZbVA-EfjyOh2lqS2DPAWS2fI6ycpyXD5dQ"
@@ -27,13 +27,13 @@ export class ExperienceService {
       job: [
         {
           designation: "Team Lead",
-          startDate: new Date("Feb 2021"),
-          endDate: new Date("Dec 2021")
+          startDate: new Date(2021, 1),
+          endDate: new Date(2021, 11)
         },
         {
           designation: "Javascript Developer",
-          startDate: new Date("Oct 2020"),
-          endDate: new Date("Feb 2021")
+          startDate: new Date(2020, 9),
+          endDate: new Date(2020, 1)
         }
       ], 
       logo: "https://static.wixstatic.com/media/ebd79e_84d94839d03246329d98f725244ad69a~mv2.png/v1/fit/w_2500,h_1330,al_c/ebd79e_84d94839d03246329d98f725244ad69a~mv2.png"
@@ -46,8 +46,8 @@ export class ExperienceService {
       job: [
         {
           designation: "Software Engineer",
-          startDate: new Date("May 2020"),
-          endDate: new Date("June 2020")
+          startDate: new Date(2020, 4),
+          endDate: new Date(2020, 5)
         }
       ],
       logo: "http://mechanic4u.pk/wp-content/uploads/2020/04/Mechanic4u.png"
@@ -60,8 +60,8 @@ export class ExperienceService {
       job: [
         {
           designation: "Trainee Cloud Engineer",
-          startDate: new Date("Feb 2020"),
-          endDate: new Date("Apr 2020")
+          startDate: new Date(2020, 1),
+          endDate: new Date(2020, 3)
         }
       ],
       logo: "https://www.gaditek.com/wp-content/uploads/2019/02/Gaditek-logo.png"
@@ -74,8 +74,8 @@ export class ExperienceService {
       job: [
         {
           designation: "Internship Trainee",
-          startDate: new Date("Apr 2019"),
-          endDate: new Date("Jun 2019")
+          startDate: new Date(2019, 3),
+          endDate: new Date(2019, 5)
         }
       ],
       logo:"https://d1e6cjojnyo6nm.cloudfront.net/provider_images/HIwbNYLh.jpg"
