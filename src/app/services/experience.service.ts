@@ -10,17 +10,20 @@ export class ExperienceService {
       company: "TRAFiX LLC",
       location: "Karachi, Pakistan",
       type: "Full Time",
+      description:"Creating and upgrading forms using servoy, debugging, enhancing the functionality, developing new features in the current system.",
       job: [
         {
           designation: "Javascript Developer",
           startDate: new Date('Dec 2021')
         }
-      ]
+      ],
+      logo: "https://media-exp1.licdn.com/dms/image/C4E0BAQGRzGNsseVH1Q/company-logo_200_200/0/1519903742534?e=2147483647&v=beta&t=mKUMulqxtZbVA-EfjyOh2lqS2DPAWS2fI6ycpyXD5dQ"
     },
     {
       company: "Strugbits",
       location: "Karachi, Pakistan",
       type: "Full Time",
+      description:"Creating websites with wix.com, creating custom functionality with wix-velo api, integrating 3rd party applications using REST APIs, converting PSD to Wix-websites, debugging errors, research work of new upcoming projects.",
       job: [
         {
           designation: "Team Lead",
@@ -32,7 +35,8 @@ export class ExperienceService {
           startDate: new Date("Oct 2020"),
           endDate: new Date("Feb 2021")
         }
-      ]
+      ], 
+      logo: "https://static.wixstatic.com/media/ebd79e_84d94839d03246329d98f725244ad69a~mv2.png/v1/fit/w_2500,h_1330,al_c/ebd79e_84d94839d03246329d98f725244ad69a~mv2.png"
     },
     {
       company: "Mechanic4u.pk",
@@ -45,11 +49,12 @@ export class ExperienceService {
           startDate: new Date("May 2020"),
           endDate: new Date("June 2020")
         }
-      ]
+      ],
+      logo: "http://mechanic4u.pk/wp-content/uploads/2020/04/Mechanic4u.png"
     },
     {
       company: "Gaditek",
-      description: "Trainee Cloud Engineer at Cloudways.com, Gaditek.",
+      description: "Setting up a VPS cloud from scratch, Managing/Securing Cloud, Setting up a WordPress site on your cloud and deploying it, Setting up cache servers.. etc.",
       location: "Karachi, Pakistan",
       type: "Full Time",
       job: [
@@ -58,19 +63,22 @@ export class ExperienceService {
           startDate: new Date("Feb 2020"),
           endDate: new Date("Apr 2020")
         }
-      ]
+      ],
+      logo: "https://www.gaditek.com/wp-content/uploads/2019/02/Gaditek-logo.png"
     },
     {
       company: "EFU General Insurance Ltd.",
       location: "Karachi, Pakistan",
       type: "Internship",
+      description:"Learning overall insurance processes, Network overview & Overview of development models of their ERP.",
       job: [
         {
           designation: "Internship Trainee",
           startDate: new Date("Apr 2019"),
           endDate: new Date("Jun 2019")
         }
-      ]
+      ],
+      logo:"https://d1e6cjojnyo6nm.cloudfront.net/provider_images/HIwbNYLh.jpg"
     }
   ];
 

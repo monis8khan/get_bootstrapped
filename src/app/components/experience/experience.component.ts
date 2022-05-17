@@ -8,17 +8,23 @@ import {ExperienceService} from '../../services/experience.service'
   styleUrls: ['./experience.component.css']
 })
 export class ExperienceComponent implements OnInit {
-
-  experienceHistory:Experience[] = [];
-
-  
-
-
+  experienceHistory?:Experience[];
+  designationCard?: boolean;
   constructor(private exp:ExperienceService) { }
 
   ngOnInit(): void {
     this.experienceHistory = this.exp.getExperienceHistory();
-    console.log(this.experienceHistory);
+    this.experienceHistory.forEach((item)=>{
+      var startDate = item.job[item.job.length-1].startDate;
+      var endDate = item.job[0].endDate; 
+      var durEnd = endDate? monthNames[endDate.getMonth()] +" "+ endDate.getFullYear() : "Present";
+      item.dur = monthNames[startDate.getMonth()] + " " + startDate.getFullYear() +" - " +durEnd
+      item.desigCard = item.job.length>1 ? true:false;
+    })
   }
 
 }
+
+const monthNames = ["January", "February", "March", "April", "May", "June",
+"July", "August", "September", "October", "November", "December"
+];

@@ -14,6 +14,7 @@ import { CertificatesComponent } from './components/certificates/certificates.co
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { ServicesComponent } from './components/services/services.component';
 import { ToolsComponent } from './components/tools/tools.component';
+import { DesigComponent } from './components/experience/desig/desig.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ToolsComponent } from './components/tools/tools.component';
     CertificatesComponent,
     PortfolioComponent,
     ServicesComponent,
-    ToolsComponent
+    ToolsComponent,
+    DesigComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,4 @@
+
 export interface Experience {
     company: string;
     duration?: string;
@@ -5,10 +6,14 @@ export interface Experience {
     location: string;
     type: string;
     job: Job[];
+    dur? :string;
+    logo?: string;
+    desigCard?: boolean;
 }
 
-interface Job {
+export interface Job {
     designation: string;
     startDate: Date;
     endDate?: Date;
+    dur?: string;
 }
