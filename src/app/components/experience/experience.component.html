@@ -1,6 +1,9 @@
 <div class="container marketing justify-content-between my-5">
   <h2 _ngcontent-csu-c19="" class="pb-2 border-bottom">Experience</h2>
   <div *ngFor="let experience of experienceHistory" class="row featurette exp_container py-2">
+    <div class="col-md-3 justify-content-between text-right">
+      <img [src]="experience.logo" alt="company logo" width="200px" class="rounded mx-auto d-block">
+    </div>
     <div class="col-md-9">
       <h2 class="featurette-heading">{{experience.company}}&ensp;<span
           class="text-muted h4">{{experience.job[0].designation}}</span>
@@ -11,9 +14,6 @@
       <div *ngIf="experience.desigCard">
         <app-desig [jobData]="experience.job"></app-desig>
       </div>
-    </div>
-    <div class="col-md-3 justify-content-between text-right">
-      <img [src]="experience.logo" alt="company logo" width="150px">
     </div>
   </div>
   <br>
