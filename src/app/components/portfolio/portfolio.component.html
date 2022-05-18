@@ -2,7 +2,9 @@
     <h2 _ngcontent-csu-c19="" class="pb-2 border-bottom">Portfolio</h2>
     <div class="row py-5">
         <div *ngFor="let portfolio of portfolioHistory" class="col-md-4">
-            <app-portfolio-card [portfolioData]="portfolio" ></app-portfolio-card>
+            <app-portfolio-card [portfolioData]="portfolio">
+
+            </app-portfolio-card>
         </div>
     </div>
 </div>

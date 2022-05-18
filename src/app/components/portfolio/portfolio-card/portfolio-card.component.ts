@@ -8,9 +8,13 @@ import {Portfolio} from '../../../interfaces/portfolios'
 })
 export class PortfolioCardComponent implements OnInit {
   @Input() portfolioData!: Portfolio;
+  hover: boolean=false;
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  onHover(val: boolean){
+    this.hover = val;
+  }
 }

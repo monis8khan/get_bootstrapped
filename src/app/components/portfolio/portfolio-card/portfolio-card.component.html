@@ -1,18 +1,25 @@
-<div *ngIf="portfolioData.id%2 !== 0" class="bg-dark text-center text-white overflow-hidden">
+<div *ngIf="portfolioData.id%2 === 0" class="bg-dark text-center text-white overflow-hidden shadow rounded-top"
+  (mouseenter)='onHover(true)' (mouseleave)='onHover(false)'>
   <div class="my-3 py-3 px-4">
     <h2 class="display-5">{{portfolioData.name}}</h2>
     <p class="lead">{{portfolioData.description}}</p>
   </div>
-  <div class="bg-light shadow-sm mx-auto pf-bg overflow-hidden" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+  <div class="shadow mx-auto pf-bg overflow-hidden" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
     <img [src]=portfolioData.image alt="" width="100%">
   </div>
 </div>
-<div *ngIf="portfolioData.id%2 === 0" class="bg-light text-center overflow-hidden">
+<div *ngIf="portfolioData.id%2 !== 0" class="bg-light text-center overflow-hidden shadow rounded-top"
+  (mouseenter)='onHover(true)' (mouseleave)='onHover(false)'>
   <div class="my-3 py-3 px-4">
     <h2 class="display-5">{{portfolioData.name}}</h2>
     <p class="lead">{{portfolioData.description}}</p>
   </div>
-  <div class="bg-dark shadow-sm mx-auto pf-bg overflow-hidden" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+  <div class="shadow- mx-auto pf-bg overflow-hidden" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
     <img [src]=portfolioData.image alt="" width="100%">
   </div>
 </div>
+<a href="#" style="text-decoration: none; width: 100%;" class="btn btn-dark text-white text-center rounded-0 rounded-bottom py-2 btn-lg">
+    Learn more
+</a>
+
+<!--  *ngIf="hover" -->

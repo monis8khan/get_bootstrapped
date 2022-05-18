@@ -9,10 +9,14 @@ import { PortfolioService } from '../../services/portfolio.service'
 })
 export class PortfolioComponent implements OnInit {
   portfolioHistory!: Portfolio[];
+  show: boolean = false;
   constructor(private port:PortfolioService) { }
 
   ngOnInit(): void {
     this.portfolioHistory = this.port.getPortfolioHistory();
   }
 
+  onHover(val: boolean){
+    this.show = val;
+  }
 }
