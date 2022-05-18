@@ -2,8 +2,8 @@
     <h2 _ngcontent-csu-c19="" class="pb-2 border-bottom">Certificates</h2>
     <div class="row">
         <div *ngFor="let certificate of certificates" class="col-md-4 mb-3 text-center my-5">
-            <div class="card mb-4 rounded-3 shadow-sm border-primary">
-                <div class="card-header py-3 text-white bg-primary border-primary">
+            <div class="card mb-4 rounded-3 shadow-sm border">
+                <div class="card-header py-3">
                     <h4 class="my-0 fw-normal">{{certificate.name}}</h4>
                 </div>
                 <div class="card-body">
@@ -11,7 +11,7 @@
                     <ul class="list-unstyled mt-3 mb-4">
                         <li>completion Date: <span class="text-muted">{{certificate.completion}}</span></li>
                     </ul>
-                    <a [href]="certificate.url? certificate.url : certificate.certificate" class="w-100 btn btn-lg btn-primary">View Certificate</a>
+                    <a [href]="certificate.url? certificate.url : certificate.certificate" class="w-100 btn btn-lg btn-dark">View Certificate</a>
                 </div>
             </div>
         </div>

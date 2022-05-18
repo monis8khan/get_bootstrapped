@@ -3,4 +3,5 @@ export interface Education {
     Institute: string;
     Year: string;
     Degree: string;
+    Icon: string;
   }
