@@ -16,6 +16,7 @@ import { ServicesComponent } from './components/services/services.component';
 import { ToolsComponent } from './components/tools/tools.component';
 import { DesigComponent } from './components/experience/desig/desig.component';
 import { PortfolioCardComponent } from './components/portfolio/portfolio-card/portfolio-card.component';
+import { ServiceCardComponent } from './components/services/service-card/service-card.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { PortfolioCardComponent } from './components/portfolio/portfolio-card/po
     ServicesComponent,
     ToolsComponent,
     DesigComponent,
-    PortfolioCardComponent
+    PortfolioCardComponent,
+    ServiceCardComponent
   ],
   imports: [
     BrowserModule,

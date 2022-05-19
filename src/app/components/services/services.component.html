@@ -1,21 +1,22 @@
-<div class="container">
-    <h2 class="pb-2 border-bottom">Services</h2>
-    <div class="row py-5">
-        <div class="col-4">
-          <div class="list-group" id="list-tab" role="tablist">
-            <a class="list-group-item list-group-item-action active bg-secondary" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Home</a>
-            <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Profile</a>
-            <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Messages</a>
-            <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Settings</a>
-          </div>
+<h2 class="pb-2 border-bottom">Services</h2>
+<div class="row py-5">
+    <div class="col-4">
+        <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action btn border-0  active bg-secondary"
+                (click)="serviceClick($event, 'webdesign')" id="list-home-list" data-bs-toggle="list" role="tab"
+                aria-controls="list-home">Web Design/Development</a>
+            <a class="list-group-item list-group-item-action btn border-0" (click)="serviceClick($event, 'uiux')"
+                id="list-profile-list" data-bs-toggle="list" role="tab" aria-controls="list-profile">UI/UX
+                Design</a>
+            <a class="list-group-item list-group-item-action btn border-0" (click)="serviceClick($event, 'branding')"
+                id="list-messages-list" data-bs-toggle="list" role="tab" aria-controls="list-messages">Branding</a>
+            <a class="list-group-item list-group-item-action btn border-0" (click)="serviceClick($event, 'copywriting')"
+                id="list-settings-list" data-bs-toggle="list" role="tab" aria-controls="list-settings">Copywriting</a>
         </div>
-        <div class="col-8">
-          <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">.home.</div>
-            <div class="tab-pane fade show active" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">.Profile.</div>
-            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
-            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
-          </div>
+    </div>
+    <div class="col-8">
+        <div class="tab-content" id="nav-tabContent">
+            <app-service-card [serviceData]="data"></app-service-card>
         </div>
-      </div>
+    </div>
 </div>
