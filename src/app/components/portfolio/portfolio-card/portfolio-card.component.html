@@ -1,5 +1,4 @@
-<div *ngIf="portfolioData.id%2 === 0" class="bg-dark text-center text-white overflow-hidden shadow rounded-top"
-  (mouseenter)='onHover(true)' (mouseleave)='onHover(false)'>
+<div *ngIf="portfolioData.id%2 === 0" class="bg-dark text-center text-white overflow-hidden shadow rounded-top">
   <div class="my-3 py-3 px-4">
     <h2 class="display-5">{{portfolioData.name}}</h2>
     <p class="lead">{{portfolioData.description}}</p>
@@ -8,8 +7,7 @@
     <img [src]=portfolioData.image alt="" width="100%">
   </div>
 </div>
-<div *ngIf="portfolioData.id%2 !== 0" class="bg-light text-center overflow-hidden shadow rounded-top"
-  (mouseenter)='onHover(true)' (mouseleave)='onHover(false)'>
+<div *ngIf="portfolioData.id%2 !== 0" class="bg-light text-center overflow-hidden shadow rounded-top">
   <div class="my-3 py-3 px-4">
     <h2 class="display-5">{{portfolioData.name}}</h2>
     <p class="lead">{{portfolioData.description}}</p>
@@ -18,8 +16,12 @@
     <img [src]=portfolioData.image alt="" width="100%">
   </div>
 </div>
-<a href="#" style="text-decoration: none; width: 100%;" class="btn btn-dark text-white text-center rounded-0 rounded-bottom py-2 btn-lg">
-    Learn more
+<a href="#" style="text-decoration: none; width: 100%;"
+  class="btn btn-dark text-white text-center rounded-0 rounded-bottom py-2 btn-lg">
+  Learn more
 </a>
 
-<!--  *ngIf="hover" -->
+<!-- 
+  (mouseenter)='onHover(true)' (mouseleave)='onHover(false)'
+  *ngIf="hover" 
+-->
