@@ -12,7 +12,6 @@ export class ServiceCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.serviceData)
     this.title = this.serviceData.title;
   }
 

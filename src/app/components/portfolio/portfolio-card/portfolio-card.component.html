@@ -1,4 +1,4 @@
-<div *ngIf="portfolioData.id%2 === 0" class="bg-dark text-center text-white overflow-hidden shadow rounded-top">
+<div *ngIf="portfolioData.id%2 === 0" class="bg-dark bg-gradient text-center text-white overflow-hidden shadow rounded-top">
   <div class="my-3 py-3 px-4">
     <h2 class="display-5">{{portfolioData.name}}</h2>
     <p class="lead">{{portfolioData.description}}</p>
@@ -7,7 +7,7 @@
     <img [src]=portfolioData.image alt="" width="100%">
   </div>
 </div>
-<div *ngIf="portfolioData.id%2 !== 0" class="bg-light text-center overflow-hidden shadow rounded-top">
+<div *ngIf="portfolioData.id%2 !== 0" class="bg-light bg-gradient text-center overflow-hidden shadow rounded-top">
   <div class="my-3 py-3 px-4">
     <h2 class="display-5">{{portfolioData.name}}</h2>
     <p class="lead">{{portfolioData.description}}</p>

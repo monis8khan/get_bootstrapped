@@ -2,15 +2,15 @@
 <div class="row py-5">
     <div class="col-4">
         <div class="list-group" id="list-tab" role="tablist">
-            <a class="list-group-item list-group-item-action btn border-0  active bg-secondary"
-                (click)="serviceClick($event, 'webdesign')" id="list-home-list" data-bs-toggle="list" role="tab"
+            <a #webdev class="list-group-item list-group-item-action btn border-0  active bg-dark"
+                (click)="serviceClick($event, 0)" id="webdev" data-bs-toggle="list" role="tab"
                 aria-controls="list-home">Web Design/Development</a>
-            <a class="list-group-item list-group-item-action btn border-0" (click)="serviceClick($event, 'uiux')"
+            <a class="list-group-item list-group-item-action btn border-0" (click)="serviceClick($event, 1)"
                 id="list-profile-list" data-bs-toggle="list" role="tab" aria-controls="list-profile">UI/UX
                 Design</a>
-            <a class="list-group-item list-group-item-action btn border-0" (click)="serviceClick($event, 'branding')"
+            <a class="list-group-item list-group-item-action btn border-0" (click)="serviceClick($event, 2)"
                 id="list-messages-list" data-bs-toggle="list" role="tab" aria-controls="list-messages">Branding</a>
-            <a class="list-group-item list-group-item-action btn border-0" (click)="serviceClick($event, 'copywriting')"
+            <a class="list-group-item list-group-item-action btn border-0" (click)="serviceClick($event, 3)"
                 id="list-settings-list" data-bs-toggle="list" role="tab" aria-controls="list-settings">Copywriting</a>
         </div>
     </div>

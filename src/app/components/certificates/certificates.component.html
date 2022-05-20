@@ -2,11 +2,11 @@
     <h2 _ngcontent-csu-c19="" class="pb-2 border-bottom">Certificates</h2>
     <div class="row">
         <div *ngFor="let certificate of certificates" class="col-md-4 mb-3 text-center my-5">
-            <div class="card mb-4 rounded-3 shadow-sm border">
-                <div class="card-header py-3 bg-secondary text-white">
+            <div class="card mb-4 rounded-5 shadow-sm border ">
+                <div class="card-header py-3 bg-secondary bg-gradient text-white">
                     <h4 class="my-0 fw-normal">{{certificate.name}}</h4>
                 </div>
-                <div class="card-body">
+                <div class="card-body bg-light bg-gradient">
                     <h1 class="display-6">{{certificate.organization}}</h1>
                     <ul class="list-unstyled mt-3 mb-4">
                         <li>completion Date: <span class="text-muted">{{certificate.completion}}</span></li>

@@ -1,12 +1,14 @@
 <section id="featured-services" class="featured-services">
     <div class="container aos-init aos-animate" data-aos="fade-up">
         <div class="row">
-            <div class="card shadow border-0 rounded p-3">
-                <div class="icon-box aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
-                    <h4 class="display-5 border-bottom py-1 fw-normal">{{serviceData.title}}</h4>
+            <div class="card border-0 rounded p-3">
+                <div class="card-header bg-light bg-gradient rounded-top shadow">
+                    <h4 class="display-5 py-1 fw-normal">{{serviceData.title}}</h4>
+                </div>
+                <div class="icon-box aos-init aos-animate card-body bg-light bg-gradient shadow" data-aos="fade-up" data-aos-delay="400">
                     <p class="lead">{{serviceData.description}}</p>
                 </div>
-                <a class="btn btn-secondary" >Book Now</a>
+                <a class="btn btn-dark rounded-0 rounded-bottom" >Book Now</a>
             </div>
         </div>
     </div>
