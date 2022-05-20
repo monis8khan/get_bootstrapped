@@ -1,0 +1,9 @@
+.cover-img {
+    width: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+    .cover-img {
+        width: 310px;
+    }
+}
