@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ToolsService } from 'src/app/services/tools.service';
+import { Tools } from 'src/app/interfaces/tools';
 
 @Component({
   selector: 'app-tools',
@@ -6,10 +8,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tools.component.css']
 })
 export class ToolsComponent implements OnInit {
-
-  constructor() { }
+  toolList: Tools[] = [];
+  constructor(private ts: ToolsService) { }
 
   ngOnInit(): void {
+    this.toolList = this.ts.getToolsList();
   }
 
 }
