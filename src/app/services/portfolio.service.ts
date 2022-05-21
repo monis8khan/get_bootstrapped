@@ -13,7 +13,7 @@ export class PortfolioService {
       duration: "3 day",
       techStack: "Wix/Velo",
       description: "This is my portfolio which is built on wix.com. I made this portfolio within 2-3 days with complete designing and responsiveness.",
-      image: "/assets/portfolio/wixPortfolio.png",
+      image: "assets/portfolio/wixPortfolio.png",
       url:"https://dev8egg.wixsite.com/portfolio"
     },
     {
@@ -23,7 +23,7 @@ export class PortfolioService {
       duration: "1 week",
       techStack: "Angular",
       description: "This is my first angular website that went live, it is built on angular with bootstrap ",
-      image: "/assets/portfolio/angularPortfolio.png",
+      image: "assets/portfolio/angularPortfolio.png",
       url: "https://monis8khan.github.io/get_bootstrapped/get_bootstrapped/"
     }
   ];
