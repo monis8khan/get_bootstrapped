@@ -25,7 +25,7 @@ export class ToolsService {
       imgurl: 'https://raw.githubusercontent.com/shoonia/vscode-corvid/master/icons/velo.png',
     }, {
       id: 5,
-      name: "Visual Studio Code",
+      name: "VS Code",
       imgurl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png',
     }, {
       id: 6,

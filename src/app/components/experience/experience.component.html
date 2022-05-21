@@ -7,7 +7,7 @@
     <h2 class="featurette-heading">{{experience.company}}&ensp;<span
         class="text-muted h4">{{experience.job[0].designation}}</span>
     </h2>
-    {{experience.type}} | <span class="text-muted">{{experience.dur}}</span>
+    <p>{{experience.type}} | <span class="text-muted">{{experience.dur}}</span></p>
     <p class="lead">{{experience.description && experience.description}}
     </p>
     <div *ngIf="experience.desigCard">

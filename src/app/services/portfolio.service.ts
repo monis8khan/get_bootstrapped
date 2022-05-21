@@ -8,30 +8,23 @@ export class PortfolioService {
   private portfolioHistory: Portfolio[] = [
     {
       id: 1,
-      name: "My Wix Site",
+      name: "Wix Portfolio",
       client: "Self",
-      duration: "1 day",
+      duration: "3 day",
       techStack: "Wix/Velo",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      image: "https://images01.nicepage.com/page/31/08/website-template-31086.jpg",
+      description: "This is my portfolio which is built on wix.com. I made this portfolio within 2-3 days with complete designing and responsiveness.",
+      image: "/assets/portfolio/wixPortfolio.png",
+      url:"https://dev8egg.wixsite.com/portfolio"
     },
     {
       id: 2,
-      name: "string",
-      client: "string",
-      duration: "string",
-      techStack: "string",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      image: "https://images01.nicepage.com/page/31/08/website-template-31086.jpg",
-    },
-    {
-      id: 3,
-      name: "string",
-      client: "string",
-      duration: "string",
-      techStack: "string",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      image: "https://images01.nicepage.com/page/31/08/website-template-31086.jpg",
+      name: "Angular Portfolio",
+      client: "Self",
+      duration: "1 week",
+      techStack: "Angular",
+      description: "This is my first angular website that went live, it is built on angular with bootstrap ",
+      image: "/assets/portfolio/angularPortfolio.png",
+      url: "https://monis8khan.github.io/get_bootstrapped/get_bootstrapped/"
     }
   ];
   getPortfolioHistory() {

@@ -1,17 +1,17 @@
-<div class="my-5">
-    <h2 _ngcontent-csu-c19="" class="pb-2 border-bottom">Certificates</h2>
+<div class="my-md-5">
+    <h2 _ngcontent-csu-c19="" class="pb-md-2 border-bottom">Certificates</h2>
     <div class="row">
-        <div *ngFor="let certificate of certificates" class="col-md-4 mb-3 text-center my-5">
-            <div class="card mb-4 rounded-5 shadow-sm border ">
-                <div class="card-header py-3 bg-secondary bg-gradient text-white">
-                    <h4 class="my-0 fw-normal">{{certificate.name}}</h4>
+        <div *ngFor="let certificate of certificates" class="col-md-4 mb-md-3 text-center my-5">
+            <div class="card rounded-5 shadow border">
+                <div class="card-header bg-secondary bg-gradient text-white my-card-header">
+                    <h5>{{certificate.name}}</h5>
                 </div>
                 <div class="card-body bg-light bg-gradient">
-                    <h1 class="display-6">{{certificate.organization}}</h1>
-                    <ul class="list-unstyled mt-3 mb-4">
+                    <h1 class="display-5">{{certificate.organization}}</h1>
+                    <ul class="list-unstyled mt-md-3 mb-md-4 lead">
                         <li>completion Date: <span class="text-muted">{{certificate.completion}}</span></li>
                     </ul>
-                    <a [href]="certificate.url? certificate.url : certificate.certificate" class="w-100 btn btn-lg btn-dark">View Certificate</a>
+                    <a [href]="certificate.url? certificate.url : certificate.certificate" target="_blank" class="w-100 btn btn-lg btn-dark">View Certificate</a>
                 </div>
             </div>
         </div>

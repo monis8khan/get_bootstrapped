@@ -1,20 +1,18 @@
 <h2 class="pb-2 border-bottom">Services</h2>
-<div class="row py-5">
-    <div class="col-4">
+<div class="row py-md-5 py-sm-3">
+    <div class="col-md-4">
         <div class="list-group" id="list-tab" role="tablist">
-            <a #webdev class="list-group-item list-group-item-action btn border-0  active bg-dark"
-                (click)="serviceClick($event, 0)" id="webdev" data-bs-toggle="list" role="tab"
-                aria-controls="list-home">Web Design/Development</a>
+            <a class="list-group-item list-group-item-action btn border-0  active bg-dark"
+                (click)="serviceClick($event, 0)" id="webdev" data-bs-toggle="list" role="tab" aria-controls="list-home">Web Designing</a>
             <a class="list-group-item list-group-item-action btn border-0" (click)="serviceClick($event, 1)"
-                id="list-profile-list" data-bs-toggle="list" role="tab" aria-controls="list-profile">UI/UX
-                Design</a>
+                id="list-profile-list" data-bs-toggle="list" role="tab" aria-controls="list-profile">Web Development</a>
             <a class="list-group-item list-group-item-action btn border-0" (click)="serviceClick($event, 2)"
-                id="list-messages-list" data-bs-toggle="list" role="tab" aria-controls="list-messages">Branding</a>
+                id="list-messages-list" data-bs-toggle="list" role="tab" aria-controls="list-messages">Designing & Branding</a>
             <a class="list-group-item list-group-item-action btn border-0" (click)="serviceClick($event, 3)"
-                id="list-settings-list" data-bs-toggle="list" role="tab" aria-controls="list-settings">Copywriting</a>
+                id="list-settings-list" data-bs-toggle="list" role="tab" aria-controls="list-settings">Digital Marketing</a>
         </div>
     </div>
-    <div class="col-8">
+    <div class="col-md-8">
         <div class="tab-content" id="nav-tabContent">
             <app-service-card [serviceData]="data"></app-service-card>
         </div>

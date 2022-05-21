@@ -6,4 +6,5 @@ export interface Portfolio{
     duration: string;
     techStack: string;
     image: string;
+    url?: string;
 }

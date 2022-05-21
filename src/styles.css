@@ -2,6 +2,63 @@
     font-family: "Poppins";
     src: local("Poppins"), url(./assets/fonts/Poppins-Light.ttf) format("truetype");
 }
-body{
+
+body {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.my-card-header {
+    min-height: 90px;
+}
+
+.cover-img {
+    width: 100%;
+}
+
+.cover {
+    overflow: hidden;
+    max-width: 500px;
+}
+
+.portfoliobox {
+    min-height: 180px;
+}
+
+@media only screen and (max-width: 600px) {
+    .cover-img {
+        overflow: hidden;
+    }
+
+    .list-group-item,
+    .lead,
+    .btn,
+    .card-text,
+    p {
+        font-size: 0.75rem;
+    }
+
+    .h1,
+    .display-5,
+    .h4,
+    .card-header,
+    h5 {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .my-card-header {
+        min-height: 50px;
+    }
+
+    .cover {
+        max-width: 300px;
+        margin-top: 80px;
+    }
+
+    .portfoliobox {
+        min-height: 80px;
+    }
 }
