@@ -1,7 +1,7 @@
 <h2 class="pb-2 border-bottom">Tools</h2>
 <div class="row py-3">
-  <div *ngFor="let tool of toolList"  class="col-2 img-fluid mx-auto text-center">
-    <img class="py-md-2" [src]="tool.imgurl" height='50px' alt="postman">
-    <p class="text-small lead py-md-2 border-top">{{tool.name}}</p>
+  <div *ngFor="let tool of toolList"  class="col-2 img-fluid text-center">
+    <img class="icons py-md-2 py-1" [src]="tool.imgurl" height='50px' alt="postman">
+    <p class="text-small py-md-2 border-top text-truncate">{{tool.name}}</p>
   </div>
 </div>

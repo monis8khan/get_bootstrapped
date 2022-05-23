@@ -61,4 +61,10 @@ body {
     .portfoliobox {
         min-height: 80px;
     }
+    .text-small{
+        font-size: 0.5rem;
+    }
+    .icons{
+        max-height: 35px;
+    }
 }

@@ -11,14 +11,14 @@ export class CertificatesService {
       name: "Angular Basics",
       organization: "Simplilearn",
       completionDate: new Date(2022, 2),
-      certificate: "/assets/certs/angular.png",
+      certificate: "assets/certs/angular.png",
     },
     {
       id: 2,
       name: "Linux Administration Bootcamp: Go from Beginner to Advanced",
       organization: "Udemy",
       completionDate: new Date(2020, 2),
-      certificate: "/assets/certs/linux.jpg",
+      certificate: "assets/certs/linux.jpg",
     },
     {
       id: 3,
