@@ -29,6 +29,10 @@ body {
         overflow: hidden;
     }
 
+    .tool-text{
+        font-size: 0.5rem;
+    }
+    
     .list-group-item,
     .lead,
     .btn,
@@ -61,4 +65,5 @@ body {
     .portfoliobox {
         min-height: 80px;
     }
+
 }
