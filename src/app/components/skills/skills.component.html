@@ -1,13 +1,8 @@
 <h2 class="pb-md-2 border-bottom">Skills</h2>
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 pymd--5">
   <div *ngFor="let skill of skills" class="col d-flex align-items-start">
-    <div style="width: 100%;">
-      <h4 class="fw-normal text-uppercase lead mb-0">{{skill.name}}&ensp;<span class="fw-light text-muted">|
-          &ensp;{{skill.percentage}}</span></h4>
-      <div class="progress mt-3">
-        <div class="progress-bar progress-bar-striped bg-secondary" role="progressbar"
-          [ngStyle]="{'width': skill.percentage}" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
-      </div>
+    <div style="width: 100%;"><img class="d-block mx-auto mb-4" src={{skill.icon}} alt="" height="50">
+      <h4 class="fw-normal text-uppercase lead mb-0 text-center">{{skill.name}}&ensp;</h4>
     </div>
   </div>
 </div>

@@ -19,19 +19,19 @@ export class ToolsService {
       id: 3,
       name: "Wix",
       imgurl: 'https://cdn.worldvectorlogo.com/logos/wix.svg',
-    }, {
-      id: 4,
-      name: "Velo",
-      imgurl: 'https://raw.githubusercontent.com/shoonia/vscode-corvid/master/icons/velo.png',
-    }, {
+    },{
       id: 5,
       name: "VS Code",
       imgurl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png',
-    }, {
+    },{
       id: 6,
-      name: "Bootstrap",
-      imgurl: 'https://img.icons8.com/color/480/bootstrap.png',
-    },
+      name: 'Servoy',
+      imgurl: 'https://servoy.com/wp-content/themes/servoy/images/logo-servoy.png'
+    },{
+      id: 7,
+      name: 'Jaspersoft',
+      imgurl: 'https://dataconomy.com/wp-content/uploads/2014/06/TIBCO-Jaspersoft-Recognised-as-a-Top-Big-Data-Vendor.jpg'
+    }
   ]
 
   getToolsList(){
