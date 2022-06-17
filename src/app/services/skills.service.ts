@@ -42,7 +42,7 @@ export class SkillsService {
       icon:"https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
     },{
       name: "Bootstrap",
-      icon: 'https://img.icons8.com/color/480/bootstrap.png',
+      icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png',
     }
   ];
 
