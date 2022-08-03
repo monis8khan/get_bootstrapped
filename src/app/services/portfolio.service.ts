@@ -6,8 +6,29 @@ import { Portfolio } from '../interfaces/portfolios'
 })
 export class PortfolioService {
   private portfolioHistory: Portfolio[] = [
+    
     {
       id: 1,
+      name: "React Portfolio",
+      client: "Self",
+      duration: "2 week",
+      techStack: "React",
+      description: "This is my first React website that went live, it is built on React with TailwindCSS ",
+      image: "assets/portfolio/reactPortfolio.png",
+      url: "https://monis8khan.github.io/monis8khan"
+    },
+    {
+      id: 2,
+      name: "Angular Portfolio",
+      client: "Self",
+      duration: "1 week",
+      techStack: "Angular",
+      description: "This is my first Angular website that went live, it is built on Angular with Bootstrap ",
+      image: "assets/portfolio/angularPortfolio.png",
+      url: "https://monis8khan.github.io/get_bootstrapped/get_bootstrapped/"
+    },
+    {
+      id: 3,
       name: "Wix Portfolio",
       client: "Self",
       duration: "3 day",
@@ -16,16 +37,6 @@ export class PortfolioService {
       image: "assets/portfolio/wixPortfolio.png",
       url:"https://dev8egg.wixsite.com/portfolio"
     },
-    {
-      id: 2,
-      name: "Angular Portfolio",
-      client: "Self",
-      duration: "1 week",
-      techStack: "Angular",
-      description: "This is my first angular website that went live, it is built on angular with bootstrap ",
-      image: "assets/portfolio/angularPortfolio.png",
-      url: "https://monis8khan.github.io/get_bootstrapped/get_bootstrapped/"
-    }
   ];
   getPortfolioHistory() {
     return this.portfolioHistory;
