@@ -20,23 +20,24 @@ export class ServicesService {
     Our Web Development team specialises in building websites and giving you with the tools you need to keep track of consumer interactions on the site 
     via CRM and other customised adjustments to ensure a functional and user-friendly interface.
     Everything will be provided in one straightforward site, including what you supply, what you require, and who you are.  `
-  }, {
-    id: 3,
-    title: "Designing & Branding",
-    description: `How can you make your company stand out?
-    Allow us to assist you in developing a unique logo and design for your business.
-    I can help you create your own unique logo, brand image, posters, and gifs, whether it's something profound and detailed or something simple and edgy.
-    I am the best person to help you with this.
-    Our specialty is translating your vision into reality through design and branding. `
-  }, {
-    id: 4,
-    title: "Digital Marketing",
-    description: `Do you want to boost your traffic and consumer base?
-    Digital marketing, on the other hand, is the modern way of marketing.
-    I can help you grow your business and build an online rapport with your potential clients because everyone nowadays is online.
-    We use social media engagement tools and other marketing approaches such as SEO, social media marketing, 
-    content marketing strategies, and more to ensure that you acquire attention.`
-  }
+  }, 
+  // {
+  //   id: 3,
+  //   title: "Designing & Branding",
+  //   description: `How can you make your company stand out?
+  //   Allow us to assist you in developing a unique logo and design for your business.
+  //   I can help you create your own unique logo, brand image, posters, and gifs, whether it's something profound and detailed or something simple and edgy.
+  //   I am the best person to help you with this.
+  //   Our specialty is translating your vision into reality through design and branding. `
+  // }, {
+  //   id: 4,
+  //   title: "Digital Marketing",
+  //   description: `Do you want to boost your traffic and consumer base?
+  //   Digital marketing, on the other hand, is the modern way of marketing.
+  //   I can help you grow your business and build an online rapport with your potential clients because everyone nowadays is online.
+  //   We use social media engagement tools and other marketing approaches such as SEO, social media marketing, 
+  //   content marketing strategies, and more to ensure that you acquire attention.`
+  // }
   ];
   getServicesList() {
     return this.servicesList;
