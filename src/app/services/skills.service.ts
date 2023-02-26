@@ -38,7 +38,7 @@ export class SkillsService {
     },
     {
       name: "HTML",
-      icon: "https://cdn.icon-icons.com/icons2/1488/PNG/512/5352-html5_102567.png"
+      icon: "https://cdn.cdnlogo.com/logos/h/84/html.svg"
     }, {
       name: "CSS",
       icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"

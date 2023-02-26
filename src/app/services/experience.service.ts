@@ -7,6 +7,19 @@ import { Experience } from '../interfaces/experience'
 export class ExperienceService {
   private experienceHistory: Experience[] = [
     {
+      company: "Syscrowd",
+      location: "Karachi, Pakistan",
+      type: "Full Time",
+      description:"Rewaping existing Web and Mobile application to latest technology, (ReactNative & NextJS). Collaborating with other developer to make sure timely delivery of the project.",
+      job: [
+        {
+          designation: "Software Manager",
+          startDate: new Date(2022, 12),
+        }
+      ],
+      logo: "https://pbs.twimg.com/profile_images/1225012880455667714/O35Pl2LN_400x400.jpg"
+    },
+    {
       company: "TRAFiX LLC",
       location: "Karachi, Pakistan",
       type: "Full Time",
@@ -14,7 +27,8 @@ export class ExperienceService {
       job: [
         {
           designation: "Javascript Developer",
-          startDate: new Date(2021, 11)
+          startDate: new Date(2021, 11),
+          endDate: new Date(2022, 11)
         }
       ],
       logo: "https://media-exp1.licdn.com/dms/image/C4E0BAQGRzGNsseVH1Q/company-logo_200_200/0/1519903742534?e=2147483647&v=beta&t=mKUMulqxtZbVA-EfjyOh2lqS2DPAWS2fI6ycpyXD5dQ"
