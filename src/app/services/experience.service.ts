@@ -7,6 +7,19 @@ import { Experience } from '../interfaces/experience'
 export class ExperienceService {
   private experienceHistory: Experience[] = [
     {
+      company: "Salsoft Technologies",
+      location: "Karachi, Pakistan",
+      type: "Full Time",
+      description:"Creating customized CMS and OMS for inhouse E-Commerce team using MEAN Stack to make their tasks easier and smooth, helping data team to manage the data/content of the website. Fixing SEO bugs on the website built on Angular. Generating reports for Finance and Management team.",
+      job: [
+        {
+          designation: "Frontend Developer",
+          startDate: new Date(2023, 4),
+        }
+      ],
+      logo: "https://superbcompanies.s3.eu-central-1.amazonaws.com/images/companies/logos/efa515f0-d496-11ed-a973-e358a802f152.jpg"
+    },
+    {
       company: "Syscrowd",
       location: "Karachi, Pakistan",
       type: "Full Time",
@@ -15,6 +28,7 @@ export class ExperienceService {
         {
           designation: "Software Manager",
           startDate: new Date(2022, 12),
+          endDate: new Date(2023, 4)
         }
       ],
       logo: "https://pbs.twimg.com/profile_images/1225012880455667714/O35Pl2LN_400x400.jpg"
@@ -64,7 +78,7 @@ export class ExperienceService {
           endDate: new Date(2020, 5)
         }
       ],
-      logo: "http://mechanic4u.pk/wp-content/uploads/2020/04/Mechanic4u.png"
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBrihQ-5gLY-OhqyAd6s1q2wmbzjGbWMWALw&s"
     },
     {
       company: "Gaditek",
@@ -78,7 +92,7 @@ export class ExperienceService {
           endDate: new Date(2020, 3)
         }
       ],
-      logo: "https://www.gaditek.com/wp-content/uploads/2019/02/Gaditek-logo.png"
+      logo: "https://media.licdn.com/dms/image/v2/D4D0BAQEEb4idqb7_Kw/company-logo_200_200/B4DZU8DiNbHYAM-/0/1740469314953/disruptofficial_logo?e=2147483647&v=beta&t=yVKoh6qMyDYh5qlyVh_eMXlfTojXqyb1O5tc_YNMU_w"
     },
     {
       company: "EFU General Insurance Ltd.",
